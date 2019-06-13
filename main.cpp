@@ -1,13 +1,28 @@
-#include "mbed.h" 
-#include "USBSerial.h" 
+#include <mbed.h>
+#include <USBSerial.h>
 
-//Virtual serial port over USB
 USBSerial serial;
+DigitalOut LedB(P0_12, 1);
+volatile uint32_t milliseconds;
+Ticker ticker;
 
-int main(void) {  
+void global_timer_IRQ(void)
+{
+  milliseconds += 1;
+}
 
-  while(1) {
-    serial.printf("I am a virtual serial port\n");
+int main(void)
+{
+  milliseconds = 0;
+  ticker.attach_us(global_timer_IRQ, 1000); // Comment this line to unfreeze
+  while (1)
+  {
+    LedB.write(0);
+    wait(1);
+    LedB.write(1);
+
+    serial.printf("us_ticker:%d, milliseconds:%d\n", (int) us_ticker_read(), (int) milliseconds);
+
     wait(1);
   }
-} 
+}
