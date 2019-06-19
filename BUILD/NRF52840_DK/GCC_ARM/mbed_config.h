@@ -22,20 +22,6 @@
 #define __MBED_CONFIG_DATA__
 
 // Configuration parameters
-#define BLE_FEATURE_EXTENDED_ADVERTISING                                      1                                                                                                // set by library:ble
-#define BLE_FEATURE_GATT_CLIENT                                               1                                                                                                // set by library:ble
-#define BLE_FEATURE_GATT_SERVER                                               1                                                                                                // set by library:ble
-#define BLE_FEATURE_PERIODIC_ADVERTISING                                      1                                                                                                // set by library:ble
-#define BLE_FEATURE_PHY_MANAGEMENT                                            1                                                                                                // set by library:ble
-#define BLE_FEATURE_PRIVACY                                                   1                                                                                                // set by library:ble
-#define BLE_FEATURE_SECURE_CONNECTIONS                                        1                                                                                                // set by library:ble
-#define BLE_FEATURE_SECURITY                                                  1                                                                                                // set by library:ble
-#define BLE_FEATURE_SIGNING                                                   1                                                                                                // set by library:ble
-#define BLE_FEATURE_WHITELIST                                                 1                                                                                                // set by library:ble
-#define BLE_ROLE_BROADCASTER                                                  1                                                                                                // set by library:ble
-#define BLE_ROLE_CENTRAL                                                      1                                                                                                // set by library:ble
-#define BLE_ROLE_OBSERVER                                                     1                                                                                                // set by library:ble
-#define BLE_ROLE_PERIPHERAL                                                   1                                                                                                // set by library:ble
 #define MBED_CONF_ATMEL_RF_ASSUME_SPACED_SPI                                  0                                                                                                // set by library:atmel-rf
 #define MBED_CONF_ATMEL_RF_FULL_SPI_SPEED                                     7500000                                                                                          // set by library:atmel-rf
 #define MBED_CONF_ATMEL_RF_FULL_SPI_SPEED_BYTE_SPACING                        250                                                                                              // set by library:atmel-rf
@@ -160,7 +146,7 @@
 #define MBED_CONF_NSAPI_DEFAULT_WIFI_SECURITY                                 NONE                                                                                             // set by library:nsapi
 #define MBED_CONF_NSAPI_DNS_CACHE_SIZE                                        3                                                                                                // set by library:nsapi
 #define MBED_CONF_NSAPI_DNS_RESPONSE_WAIT_TIME                                5000                                                                                             // set by library:nsapi
-#define MBED_CONF_NSAPI_DNS_RETRIES                                           0                                                                                                // set by library:nsapi
+#define MBED_CONF_NSAPI_DNS_RETRIES                                           2                                                                                                // set by library:nsapi
 #define MBED_CONF_NSAPI_DNS_TOTAL_ATTEMPTS                                    3                                                                                                // set by library:nsapi
 #define MBED_CONF_NSAPI_PRESENT                                               1                                                                                                // set by library:nsapi
 #define MBED_CONF_NSAPI_SOCKET_STATS_ENABLED                                  0                                                                                                // set by library:nsapi
@@ -264,49 +250,16 @@
 #define MBED_LFS_READ_SIZE                                                    64                                                                                               // set by library:littlefs
 #define MEM_ALLOC                                                             malloc                                                                                           // set by library:mbed-trace
 #define MEM_FREE                                                              free                                                                                             // set by library:mbed-trace
-#define NRF_SDH_BLE_CENTRAL_LINK_COUNT                                        3                                                                                                // set by library:nordic-ble
-#define NRF_SDH_BLE_GATTS_ATTR_TAB_SIZE                                       0x600                                                                                            // set by library:nordic-ble
-#define NRF_SDH_BLE_PERIPHERAL_LINK_COUNT                                     1                                                                                                // set by library:nordic-ble
-#define NRF_SDH_BLE_SERVICE_CHANGED                                           1                                                                                                // set by library:nordic-ble
-#define NRF_SDH_BLE_TOTAL_CHARACTERISTICS                                     20                                                                                               // set by library:nordic-ble
-#define NRF_SDH_BLE_TOTAL_DESCRIPTORS                                         8                                                                                                // set by library:nordic-ble
-#define NRF_SDH_BLE_TOTAL_LINK_COUNT                                          (NRF_SDH_BLE_CENTRAL_LINK_COUNT + NRF_SDH_BLE_PERIPHERAL_LINK_COUNT)                             // set by library:nordic-ble
-#define NRF_SDH_BLE_VS_UUID_COUNT                                             4                                                                                                // set by library:nordic-ble
 #define NSAPI_PPP_AVAILABLE                                                   0                                                                                                // set by library:lwip
 #define NSAPI_PPP_IPV4_AVAILABLE                                              1                                                                                                // set by library:lwip
 #define NSAPI_PPP_IPV6_AVAILABLE                                              0                                                                                                // set by library:lwip
 #define NVSTORE_ENABLED                                                       1                                                                                                // set by library:nvstore
 #define NVSTORE_MAX_KEYS                                                      16                                                                                               // set by library:nvstore
 // Macros
-#define BLE_ADV_BLE_OBSERVER_PRIO                                             1                                                                                                // defined by library:softdevice
-#define BLE_CONN_PARAMS_BLE_OBSERVER_PRIO                                     1                                                                                                // defined by library:softdevice
-#define BLE_CONN_STATE_BLE_OBSERVER_PRIO                                      0                                                                                                // defined by library:softdevice
-#define BLE_STACK_SUPPORT_REQD                                                                                                                                                 // defined by library:softdevice
-#define FDS_BACKEND                                                           2                                                                                                // defined by library:softdevice
 #define MBEDTLS_CIPHER_MODE_CTR                                                                                                                                                // defined by library:SecureStore
 #define MBEDTLS_CMAC_C                                                                                                                                                         // defined by library:SecureStore
-#define NRF_BLE_GATT_BLE_OBSERVER_PRIO                                        1                                                                                                // defined by library:softdevice
-#define NRF_SDH_BLE_ENABLED                                                   1                                                                                                // defined by library:softdevice
-#define NRF_SDH_BLE_GAP_EVENT_LENGTH                                          3                                                                                                // defined by library:softdevice
-#define NRF_SDH_BLE_GATT_MAX_MTU_SIZE                                         23                                                                                               // defined by library:softdevice
-#define NRF_SDH_BLE_OBSERVER_PRIO_LEVELS                                      4                                                                                                // defined by library:softdevice
-#define NRF_SDH_BLE_STACK_OBSERVER_PRIO                                       0                                                                                                // defined by library:softdevice
-#define NRF_SDH_CLOCK_LF_XTAL_ACCURACY                                        7                                                                                                // defined by library:softdevice
-#define NRF_SDH_DISPATCH_MODEL                                                2                                                                                                // defined by library:softdevice
-#define NRF_SDH_ENABLED                                                       1                                                                                                // defined by library:softdevice
-#define NRF_SDH_REQ_OBSERVER_PRIO_LEVELS                                      2                                                                                                // defined by library:softdevice
-#define NRF_SDH_SOC_ENABLED                                                   1                                                                                                // defined by library:softdevice
-#define NRF_SDH_SOC_OBSERVER_PRIO_LEVELS                                      2                                                                                                // defined by library:softdevice
-#define NRF_SDH_SOC_STACK_OBSERVER_PRIO                                       0                                                                                                // defined by library:softdevice
-#define NRF_SDH_STACK_OBSERVER_PRIO_LEVELS                                    2                                                                                                // defined by library:softdevice
-#define NRF_SDH_STATE_OBSERVER_PRIO_LEVELS                                    2                                                                                                // defined by library:softdevice
-#define NRF_SD_BLE_API_VERSION                                                6                                                                                                // defined by library:softdevice
 #define NS_USE_EXTERNAL_MBED_TLS                                                                                                                                               // defined by library:nanostack
-#define PEER_MANAGER_ENABLED                                                  1                                                                                                // defined by library:softdevice
-#define S140                                                                                                                                                                   // defined by library:softdevice
-#define SOFTDEVICE_PRESENT                                                    1                                                                                                // defined by library:softdevice
 #define SWI_DISABLE0                                                                                                                                                           // defined by library:nordic
-#define SWI_DISABLE1                                                          1                                                                                                // defined by library:softdevice
 #define UNITY_INCLUDE_CONFIG_H                                                                                                                                                 // defined by library:utest
 #define _RTE_                                                                                                                                                                  // defined by library:rtos
 

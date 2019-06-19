@@ -51,20 +51,14 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/features/lorawan/lorastack/phy/LoRaPHYAU915.o:
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/nordic_common.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/nordic_common.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/app_util_platform.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_soc.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_svc.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_error.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_error_soc.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_nvic.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/nrf_assert.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/app_error.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/sdk_errors.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_error.h \
+ mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_NONE/nrf_soc_nosd/nrf_error.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/app_error_weak.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/soc/nrfx_coredep.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/sdk_errors.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/sdk_resources.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_sd_def.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/drivers/nrfx_errors.h \
  mbed-os/features/lorawan/lorastack/phy/lora_phy_ds.h \
  mbed-os/features/lorawan/system/lorawan_data_structures.h

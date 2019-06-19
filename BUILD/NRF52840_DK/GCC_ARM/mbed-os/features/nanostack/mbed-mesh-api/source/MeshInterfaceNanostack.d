@@ -2,15 +2,23 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/features/nanostack/mbed-mesh-api/source/MeshIn
  mbed-os/features/nanostack/mbed-mesh-api/source/MeshInterfaceNanostack.cpp \
  BUILD/NRF52840_DK/GCC_ARM/mbed_config.h \
  mbed-os/features/nanostack/mbed-mesh-api/mbed-mesh-api/MeshInterfaceNanostack.h \
- mbed-os/features/netsocket/MeshInterface.h \
+ mbed-os/rtos/Semaphore.h \
+ mbed-os/rtos/TARGET_CORTEX/rtx5/Include/cmsis_os2.h \
+ mbed-os/rtos/TARGET_CORTEX/mbed_rtos1_types.h \
+ mbed-os/rtos/TARGET_CORTEX/rtx4/cmsis_os.h \
+ mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Include/rtx_os.h \
+ mbed-os/rtos/TARGET_CORTEX/mbed_rtos_storage.h \
+ mbed-os/rtos/TARGET_CORTEX/mbed_rtx_conf.h \
+ mbed-os/targets/TARGET_NORDIC/mbed_rtx.h \
+ mbed-os/platform/mbed_toolchain.h mbed-os/platform/mbed_preprocessor.h \
+ mbed-os/platform/NonCopyable.h mbed-os/platform/mbed_toolchain.h \
+ mbed-os/platform/mbed_debug.h mbed-os/features/netsocket/MeshInterface.h \
  mbed-os/features/netsocket/NetworkInterface.h \
  mbed-os/features/netsocket/nsapi_types.h \
  mbed-os/features/netsocket/SocketAddress.h \
  mbed-os/features/netsocket/nsapi_types.h \
- mbed-os/platform/mbed_toolchain.h mbed-os/platform/mbed_preprocessor.h \
- mbed-os/platform/Callback.h mbed-os/platform/mbed_assert.h \
- mbed-os/platform/mbed_toolchain.h mbed-os/platform/mbed_toolchain.h \
- mbed-os/features/netsocket/DNS.h \
+ mbed-os/platform/mbed_toolchain.h mbed-os/platform/Callback.h \
+ mbed-os/platform/mbed_assert.h mbed-os/features/netsocket/DNS.h \
  mbed-os/features/nanostack/nanostack-interface/NanostackRfPhy.h \
  mbed-os/features/nanostack/nanostack-interface/NanostackPhy.h \
  mbed-os/features/nanostack/nanostack-interface/Nanostack.h \
@@ -26,15 +34,8 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/features/nanostack/mbed-mesh-api/source/MeshIn
  mbed-os/features/netsocket/Socket.h \
  mbed-os/features/netsocket/UDPSocket.h \
  mbed-os/features/netsocket/InternetSocket.h mbed-os/rtos/Mutex.h \
- mbed-os/rtos/TARGET_CORTEX/rtx5/Include/cmsis_os2.h \
- mbed-os/rtos/TARGET_CORTEX/mbed_rtos1_types.h \
- mbed-os/rtos/TARGET_CORTEX/rtx4/cmsis_os.h \
- mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Include/rtx_os.h \
- mbed-os/rtos/TARGET_CORTEX/mbed_rtos_storage.h \
- mbed-os/rtos/TARGET_CORTEX/mbed_rtx_conf.h \
- mbed-os/targets/TARGET_NORDIC/mbed_rtx.h mbed-os/platform/NonCopyable.h \
- mbed-os/platform/mbed_debug.h mbed-os/platform/ScopedLock.h \
- mbed-os/rtos/EventFlags.h mbed-os/platform/mbed_atomic.h \
+ mbed-os/platform/ScopedLock.h mbed-os/rtos/EventFlags.h \
+ mbed-os/platform/mbed_atomic.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_NRF52/TARGET_MCU_NRF52840/device/cmsis.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/mdk/nrf.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/mdk/nrf52840.h \
@@ -77,20 +78,14 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/features/nanostack/mbed-mesh-api/source/MeshIn
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/nordic_common.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/nordic_common.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/app_util_platform.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_soc.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_svc.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_error.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_error_soc.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_nvic.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/nrf_assert.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/app_error.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/sdk_errors.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_error.h \
+ mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_NONE/nrf_soc_nosd/nrf_error.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/app_error_weak.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/soc/nrfx_coredep.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/sdk_errors.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/sdk_resources.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_sd_def.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/drivers/nrfx_errors.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/drivers/include/nrfx_spi.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/hal/nrf_spi.h \
@@ -110,7 +105,7 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/features/nanostack/mbed-mesh-api/source/MeshIn
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/hal/nrf_qspi.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/gpio_object.h \
  mbed-os/platform/mbed_assert.h mbed-os/features/netsocket/TCPSocket.h \
- mbed-os/features/netsocket/TCPServer.h mbed-os/rtos/Semaphore.h \
+ mbed-os/features/netsocket/TCPServer.h \
  mbed-os/features/netsocket/TLSSocketWrapper.h \
  mbed-os/platform/Callback.h \
  mbed-os/features/mbedtls/inc/mbedtls/platform.h \

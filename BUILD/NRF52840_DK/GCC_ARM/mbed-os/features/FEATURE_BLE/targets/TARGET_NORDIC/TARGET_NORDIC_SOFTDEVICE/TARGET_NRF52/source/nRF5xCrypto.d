@@ -30,8 +30,7 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TAR
  mbed-os/platform/CriticalSectionLock.h mbed-os/platform/mbed_critical.h \
  mbed-os/platform/mbed_toolchain.h \
  mbed-os/features/FEATURE_BLE/ble/BLETypes.h \
- mbed-os/features/FEATURE_BLE/ble/SafeEnum.h \
- mbed-os/features/FEATURE_BLE/ble/ArrayView.h \
+ mbed-os/features/FEATURE_BLE/ble/SafeEnum.h mbed-os/platform/Span.h \
  mbed-os/platform/mbed_assert.h \
  mbed-os/features/FEATURE_BLE/ble/gap/Types.h \
  mbed-os/features/FEATURE_BLE/ble/common/Duration.h \

@@ -8,8 +8,7 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/features/FEATURE_BLE/source/services/URIBeacon
  mbed-os/features/FEATURE_BLE/ble/Gap.h \
  mbed-os/features/FEATURE_BLE/ble/common/StaticInterface.h \
  mbed-os/features/FEATURE_BLE/ble/BLETypes.h \
- mbed-os/features/FEATURE_BLE/ble/SafeEnum.h \
- mbed-os/features/FEATURE_BLE/ble/ArrayView.h \
+ mbed-os/features/FEATURE_BLE/ble/SafeEnum.h mbed-os/platform/Span.h \
  mbed-os/platform/mbed_assert.h mbed-os/platform/mbed_preprocessor.h \
  mbed-os/platform/mbed_toolchain.h \
  mbed-os/features/FEATURE_BLE/ble/gap/Types.h \
@@ -29,8 +28,7 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/features/FEATURE_BLE/source/services/URIBeacon
  mbed-os/features/FEATURE_BLE/ble/BLETypes.h \
  mbed-os/features/FEATURE_BLE/ble/BLEProtocol.h \
  mbed-os/features/FEATURE_BLE/ble/gap/AdvertisingDataBuilder.h \
- mbed-os/platform/Span.h mbed-os/platform/NonCopyable.h \
- mbed-os/platform/mbed_debug.h \
+ mbed-os/platform/NonCopyable.h mbed-os/platform/mbed_debug.h \
  mbed-os/features/FEATURE_BLE/ble/blecommon.h \
  mbed-os/features/FEATURE_BLE/ble/UUID.h \
  mbed-os/features/FEATURE_BLE/ble/gap/AdvertisingDataTypes.h \

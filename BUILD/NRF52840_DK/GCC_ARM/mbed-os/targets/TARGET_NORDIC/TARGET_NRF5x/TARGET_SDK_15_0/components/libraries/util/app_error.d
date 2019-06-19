@@ -18,6 +18,6 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/mdk/compiler_abstraction.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/app_error.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/sdk_errors.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_error.h \
+ mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_NONE/nrf_soc_nosd/nrf_error.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/nordic_common.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/app_error_weak.h

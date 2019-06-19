@@ -8,7 +8,7 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/mdk/compiler_abstraction.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/sdk_os.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/sdk_errors.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_error.h \
+ mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_NONE/nrf_soc_nosd/nrf_error.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/app_util.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/mdk/nrf.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/mdk/nrf52840.h \
@@ -26,29 +26,4 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/mdk/nrf52_to_nrf52840.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/mdk/compiler_abstraction.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/sdk_macros.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/nrf_assert.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/softdevice/common/nrf_sdh.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/sdk_errors.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/experimental_section_vars/nrf_section_iter.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/experimental_section_vars/nrf_section.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/nordic_common.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/nrf_assert.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/app_util.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_sdm.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_svc.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_error.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_error_sdm.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_soc.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_error_soc.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_nvic.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/app_error.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/app_error_weak.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/app_util_platform.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_soc.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/app_error.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/experimental_log/nrf_log.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/experimental_section_vars/nrf_section.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/experimental_log/src/nrf_log_internal.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/experimental_log/nrf_log_instance.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/experimental_log/nrf_log_types.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/experimental_log/nrf_log_types.h
+ mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/nrf_assert.h

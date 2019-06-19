@@ -18,7 +18,6 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/features/mbedtls/src/x509.o: \
  mbed-os/features/mbedtls/inc/mbedtls/oid.h \
  mbed-os/features/mbedtls/inc/mbedtls/cipher.h \
  mbed-os/features/mbedtls/inc/mbedtls/platform_util.h \
- mbed-os/features/mbedtls/inc/mbedtls/x509.h \
  mbed-os/features/mbedtls/inc/mbedtls/pem.h \
  mbed-os/features/mbedtls/inc/mbedtls/platform.h \
  mbed-os/features/mbedtls/inc/mbedtls/platform_time.h \
@@ -34,5 +33,6 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/features/mbedtls/src/x509.o: \
  mbed-os/features/cryptocell/FEATURE_CRYPTOCELL310/include/ssi_aes_defs.h \
  mbed-os/features/mbedtls/inc/mbedtls/platform_time.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509_crt.h \
+ mbed-os/features/mbedtls/inc/mbedtls/x509.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509_crl.h \
  mbed-os/features/mbedtls/inc/mbedtls/certs.h

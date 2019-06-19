@@ -50,7 +50,6 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/features/mbedtls/src/error.o: \
  mbed-os/features/mbedtls/inc/mbedtls/rsa.h \
  mbed-os/features/mbedtls/inc/mbedtls/ecp.h \
  mbed-os/features/mbedtls/inc/mbedtls/ecdsa.h \
- mbed-os/features/mbedtls/inc/mbedtls/x509.h \
  mbed-os/features/mbedtls/inc/mbedtls/pem.h \
  mbed-os/features/mbedtls/inc/mbedtls/pk.h \
  mbed-os/features/mbedtls/inc/mbedtls/poly1305.h \
@@ -63,6 +62,7 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/features/mbedtls/src/error.o: \
  mbed-os/features/mbedtls/inc/mbedtls/ssl.h \
  mbed-os/features/mbedtls/inc/mbedtls/ssl_ciphersuites.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509_crt.h \
+ mbed-os/features/mbedtls/inc/mbedtls/x509.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509_crl.h \
  mbed-os/features/mbedtls/inc/mbedtls/ecdh.h \
  mbed-os/features/mbedtls/inc/mbedtls/x509.h

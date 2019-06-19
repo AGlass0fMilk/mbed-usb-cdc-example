@@ -222,8 +222,7 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TAR
  mbed-os/features/FEATURE_BLE/ble/Gap.h \
  mbed-os/features/FEATURE_BLE/ble/common/StaticInterface.h \
  mbed-os/features/FEATURE_BLE/ble/BLETypes.h \
- mbed-os/features/FEATURE_BLE/ble/SafeEnum.h \
- mbed-os/features/FEATURE_BLE/ble/ArrayView.h \
+ mbed-os/features/FEATURE_BLE/ble/SafeEnum.h mbed-os/platform/Span.h \
  mbed-os/features/FEATURE_BLE/ble/gap/Types.h \
  mbed-os/features/FEATURE_BLE/ble/common/Duration.h \
  mbed-os/features/FEATURE_BLE/ble/common/Bounded.h \
@@ -240,7 +239,7 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/features/FEATURE_BLE/targets/TARGET_NORDIC/TAR
  mbed-os/features/FEATURE_BLE/ble/BLETypes.h \
  mbed-os/features/FEATURE_BLE/ble/BLEProtocol.h \
  mbed-os/features/FEATURE_BLE/ble/gap/AdvertisingDataBuilder.h \
- mbed-os/platform/Span.h mbed-os/features/FEATURE_BLE/ble/blecommon.h \
+ mbed-os/features/FEATURE_BLE/ble/blecommon.h \
  mbed-os/features/FEATURE_BLE/ble/UUID.h \
  mbed-os/features/FEATURE_BLE/ble/gap/AdvertisingDataTypes.h \
  mbed-os/features/FEATURE_BLE/ble/gap/AdvertisingDataSimpleBuilder.h \

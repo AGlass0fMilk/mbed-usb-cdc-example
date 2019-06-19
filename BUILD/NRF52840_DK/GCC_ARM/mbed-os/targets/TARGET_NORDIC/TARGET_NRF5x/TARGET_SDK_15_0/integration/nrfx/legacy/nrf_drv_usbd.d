@@ -5,7 +5,7 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/nrf5x_lf_clk_helper.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/integration/nrfx/legacy/nrf_drv_usbd.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/sdk_errors.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_error.h \
+ mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_NONE/nrf_soc_nosd/nrf_error.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/hal/nrf_usbd.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/nrfx.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/integration/nrfx/nrfx_config.h \
@@ -36,18 +36,12 @@ BUILD/NRF52840_DK/GCC_ARM/mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/nordic_common.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/nordic_common.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/app_util_platform.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_soc.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_svc.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_error.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_error_soc.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_nvic.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/nrf_assert.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/app_error.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/sdk_errors.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/app_error_weak.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/soc/nrfx_coredep.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/util/sdk_resources.h \
- mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/TARGET_SOFTDEVICE_S140_FULL/headers/nrf_sd_def.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/modules/nrfx/drivers/nrfx_errors.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/integration/nrfx/legacy/nrf_drv_usbd_errata.h \
  mbed-os/targets/TARGET_NORDIC/TARGET_NRF5x/TARGET_SDK_15_0/components/libraries/atomic/nrf_atomic.h \
